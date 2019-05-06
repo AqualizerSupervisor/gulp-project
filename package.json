@@ -1,0 +1,33 @@
+{
+  "name": "gulp-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.5.1",
+    "gulp": "^4.0.1",
+    "gulp-if": "^2.0.2",
+    "require-dir": "^1.2.0",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AqualizerSupervisor/gulp-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AqualizerSupervisor/gulp-project/issues"
+  },
+  "homepage": "https://github.com/AqualizerSupervisor/gulp-project#readme"
+}

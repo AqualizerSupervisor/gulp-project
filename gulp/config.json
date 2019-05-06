@@ -1,0 +1,31 @@
+{
+  "path": {
+    "project": "../project",
+    "app": "../project/app",
+    "dist": "../project/dist",
+    "tasks": "./gulp/tasks",
+    "tmp": "./gulp/tmp"
+  },
+  "styles": {
+    "path": {
+      "app": "./project/app/scss/",
+      "dist": "./project/dist/css/",
+      "tmp": "./gulp/tmp/scss/"
+    },
+    "params": {
+      "prod": {
+        "outputStyle": "compressed"
+      },
+      "dev": {
+        "outputStyle": "expanded"
+      }
+    }
+  },
+  "scripts": {
+    "path": {
+      "app": "./project/app/js/",
+      "dist": "./project/dist/js/",
+      "tmp": "./gulp/tmp/js/"
+    }
+  }
+}
